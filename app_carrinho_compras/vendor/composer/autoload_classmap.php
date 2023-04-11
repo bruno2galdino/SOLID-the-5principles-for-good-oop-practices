@@ -6,5 +6,9 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\CarrinhoCompra' => $baseDir . '/src/CarrinhoCompra.php',
+    'App\\EmailService' => $baseDir . '/src/EmailService.php',
+    'App\\Item' => $baseDir . '/src/Item.php',
+    'App\\Pedido' => $baseDir . '/src/Pedido.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );
