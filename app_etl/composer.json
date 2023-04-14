@@ -1,0 +1,15 @@
+{
+    "name": "brunogaldino/app_etl",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bruno Galdino",
+            "email": "bruno2galdino@gmail.com"
+        }
+    ],
+    "require": {}
+}
