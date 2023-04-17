@@ -13,10 +13,16 @@ $arr_txt = $leitorTXT->lerArquivo();
 //---------------------------------------------- CSV
 $leitorCSV = new Leitor();
 $leitorCSV->setDiretorio(__DIR__.'/arquivos');
-$leitorCSV->setArquivo('dados.txt');
+$leitorCSV->setArquivo('dados.csv');
 $arr_csv = $leitorCSV->lerArquivo();
 
-//---------------------------------------------- Merge TXT e CSV
+//---------------------------------------------- XLSX
+$leitorXLSX = new Leitor();
+$leitorXLSX->setDiretorio(__DIR__.'/arquivos');
+$leitorXLSX->setArquivo('dados.xlsx');
+$arr_xlsx = $leitorXLSX->lerArquivo();
+
+//---------------------------------------------- Merge TXT, CSV e XLSX
 echo '<pre>';
-print_r(array_merge($arr_txt, $arr_csv));
+print_r(array_merge($arr_txt, $arr_csv, $arr_xlsx));
 echo '</pre>';
