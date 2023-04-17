@@ -1,6 +1,6 @@
 <?php
 
-namespace src;
+namespace src\poligonos;
 class Retangulo{
     protected $largura;
     protected $altura;
@@ -21,7 +21,4 @@ class Retangulo{
         return $this->altura;
     }
 
-    public function getArea(): float{
-        return $this->getaltura()*$this->getLargura();
-    }
 }
