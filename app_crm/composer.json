@@ -1,0 +1,15 @@
+{
+    "name": "brunogaldino/app_crm",
+    "authors": [
+        {
+            "name": "brunogaldino",
+            "email": "bruno2galdino@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    }
+}

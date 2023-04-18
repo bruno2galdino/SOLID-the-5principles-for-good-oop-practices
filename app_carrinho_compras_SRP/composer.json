@@ -1,0 +1,16 @@
+{
+    "name": "brunogaldino/app_carrinho_compras",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Bruno Galdino",
+            "email": "bruno2galdino@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\":"src/"
+        } 
+    }
+}

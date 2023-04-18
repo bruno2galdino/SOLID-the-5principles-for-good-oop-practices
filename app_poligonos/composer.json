@@ -1,0 +1,16 @@
+{
+    "name": "brunogaldino/app_poligonos",
+    "authors": [
+        {
+            "name": "brunogaldino",
+            "email": "bruno2galdino@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "src\\":"src/"
+        }
+        
+    }
+}
